@@ -1,0 +1,9 @@
+menu "GPIO Control Component"
+
+config GPIO_CONTROL_PIN
+    int "GPIO pin for output control"
+    default 2
+    help
+        This is the GPIO pin that will be set HIGH or LOW by the gpio_control component.
+
+endmenu
